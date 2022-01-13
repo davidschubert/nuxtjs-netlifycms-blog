@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2b5306bb-058d-44c2-bfa4-84be85ea5531/deploy-status)](https://app.netlify.com/sites/competent-lalande-f57c98/deploys)
 
-**[Live Demo](https://ntn-boilerplate.netlify.app/)**
+**[Live Demo](https://competent-lalande-f57c98.netlify.app/)**
 
 An opinionated starter template for a quick start with the following technologies up on a site after only 5 minutes!
 
