@@ -161,7 +161,6 @@ export default {
       ogImage: '/preview.jpg',
       theme_color: '#00ff00',
       appleStatusBarStyle: 'black'
-    },
-    background_color: '#ff0000'
+    }
   }
 }
