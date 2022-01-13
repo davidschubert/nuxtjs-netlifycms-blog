@@ -145,14 +145,23 @@ export default {
   pwa: {
     icon: {
       source: 'static/icon.png',
-      filename: 'icon.png'
+      fileName: 'icon.png'
     },
-    manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
-    meta: {
+    manifest: {
       name: SITE_INFO.sitename || process.env.npm_package_name || '',
+      short_name: 'David Schubert', // maximum of 12 characters
+      description: SITE_INFO.sitedescription || process.env.npm_package_description || '',
       lang: process.env.lang,
+      dir: 'ltr'
+    },
+    meta: {
+      author: 'David Schubert',
+      name: SITE_INFO.sitename || process.env.npm_package_name || '',
       ogHost: process.env.URL,
-      ogImage: '/preview.jpg'
-    }
+      ogImage: '/preview.jpg',
+      theme_color: '#00ff00',
+      appleStatusBarStyle: 'black'
+    },
+    background_color: '#ff0000'
   }
 }
