@@ -22,6 +22,9 @@ export default {
    */
   head: {
     title: SITE_INFO.sitename || process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'de',  // it sets the language german
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

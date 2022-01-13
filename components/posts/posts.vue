@@ -10,7 +10,7 @@
       >
         <template v-if="postType === 'projects'">
           <span class="flex-1">
-            <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">{{ post.category }}</h6>
+            <div class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm uppercase mb-3">{{ post.category }}</div>
             <h3 class="card-title">{{ post.title }}</h3>
             <p class="mt-2">{{ post.description }}</p>
           </span>
@@ -24,11 +24,11 @@
         <template v-else>
           <span class="w-full">
             <span class="flex justify-between align-baseline">
-              <h3 class="card-title">{{ post.title }}</h3>
-              <h6
+              <h2 class="card-title">{{ post.title }}</h2>
+              <div
                 v-if="post.createdAt"
                 class="self-start inline-block mt-0 py-1 px-2 bg-gray text-white text-base font-medium rounded-sm whitespace-no-wrap"
-              >{{ formatDate(post.createdAt) }}</h6>
+              >{{ formatDate(post.createdAt) }}</div>
             </span>
             <p class="mt-2">{{ post.description }}</p>
           </span>
