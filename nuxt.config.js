@@ -15,7 +15,7 @@ export default {
       process.env.NODE_ENV === 'production'
         ? process.env.URL || 'http://createADotEnvFileAndSetURL'
         : 'http://localhost:3000',
-    lang: SITE_INFO.sitelang || 'en-US'
+    lang: SITE_INFO.sitelang || 'de-DE'
   },
   /*
    ** Headers of the page
@@ -60,7 +60,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#526488' },
+  loading: { color: '#ff0000' },
   /*
    ** Global CSS
    */
