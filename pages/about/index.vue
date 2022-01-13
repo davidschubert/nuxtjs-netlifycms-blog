@@ -24,6 +24,7 @@ $t-delay: 300ms;
 
 .intro-enter-active,
 .intro-leave-active {
+  z-index: 50;
   transition-duration: $t-duration * 2;
 
   &::before,
