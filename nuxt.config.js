@@ -167,5 +167,6 @@ export default {
       theme_color: '#00ff00',
       appleStatusBarStyle: 'black'
     }
-  }
+  },
+  pageTransition: 'davsch' // assets/css/main.css
 }
