@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss">
 $t-duration: 800ms;
-$t-delay: 800ms;
+$t-delay: 300ms;
 
 .intro-enter-active,
 .intro-leave-active {
@@ -46,7 +46,7 @@ $t-delay: 800ms;
 
   &::after {
     top: 50%;
-    background-color: #2e2e2e;
+    background-color: #000;
   }
 }
 
