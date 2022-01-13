@@ -1,5 +1,5 @@
 ---
-category: animals
+category: website
 title: Placeholder Bears
 description: Necessary to show how a project with the category Animals is used
 cover: https://placebear.com/400/200

@@ -1,5 +1,5 @@
 ---
-category: creative tech
+category: website
 title: David und Dirk
 description: Was macht ihr beide eigentlich bei PUK?
 cover: https://baconmockup.com/400/200
