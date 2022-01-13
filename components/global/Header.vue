@@ -11,10 +11,10 @@
         <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/about">Über mich</nuxt-link>
+        <nuxt-link class="btn block" to="/about">About</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/contact">Kontakt</nuxt-link>
+        <nuxt-link class="btn block" to="/contact">Contact</nuxt-link>
       </li>
     </ul>
   </nav>
