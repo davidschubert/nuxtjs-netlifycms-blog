@@ -1,9 +1,11 @@
 ---
-category: animals
+category: website
 title: Placeholder Bears
 description: Necessary to show how a project with the category Animals is used
 cover: https://placebear.com/400/200
-gallery: ['https://placebear.com/g/800/400', 'https://placebear.com/600/600']
+gallery:
+  - https://placebear.com/g/800/400
+  - https://placebear.com/600/600
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
