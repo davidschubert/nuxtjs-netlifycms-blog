@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-02-18
+createdAt: 2022-01-13T10:59:04.413Z
 title: Time to add your own content
 description: Remove all of the .md-files in the /content folder and go at it!
 ---
