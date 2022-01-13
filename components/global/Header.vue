@@ -3,12 +3,18 @@
     <ul class="flex">
       <li class="flex-1">
         <nuxt-link class="btn block" to="/">Home</nuxt-link>
+      </li> 
+      <li class="flex-1 ml-2">
+        <nuxt-link class="btn block" to="/projects/">Cases</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
+        <nuxt-link class="btn block" to="/blog/">Blog</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/projects">Projekte</nuxt-link>
+        <nuxt-link class="btn block" to="/about/">Über mich</nuxt-link>
+      </li>
+      <li class="flex-1 ml-2">
+        <nuxt-link class="btn block" to="/contact/">Kontakt</nuxt-link>
       </li>
     </ul>
   </nav>
