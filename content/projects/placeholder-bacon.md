@@ -1,9 +1,11 @@
 ---
-category: creative tech
+category: vr
 title: David und Dirk
 description: Was macht ihr beide eigentlich bei PUK?
 cover: https://baconmockup.com/400/200
-gallery: ['https://baconmockup.com/600/300', 'https://baconmockup.com/600/600']
+gallery:
+  - https://baconmockup.com/600/300
+  - https://baconmockup.com/600/600
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
