@@ -22,6 +22,10 @@ export default {
 
 <style lang="postcss" scoped>
 .scrim-bg {
+  background: green;
+}
+
+.scrim-bg {
   &::before {
     content: '';
     z-index: -1;

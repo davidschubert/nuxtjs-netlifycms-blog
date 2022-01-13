@@ -1,7 +1,7 @@
 ---
-category: food
-title: Placeholder Bacon
-description: What is life without bacon?
+category: creative tech
+title: David und Dirk
+description: Was macht ihr beide eigentlich bei PUK?
 cover: https://baconmockup.com/400/200
 gallery: ['https://baconmockup.com/600/300', 'https://baconmockup.com/600/600']
 ---

@@ -1,5 +1,5 @@
-site_url: https://ntn-boilerplate.netlify.app/
-logo_url: https://ntn-boilerplate.netlify.app/icon.png
+site_url: https://6co.de
+logo_url: https://6co.de/icon.png
 
 publish_mode: editorial_workflow
 backend:
@@ -15,7 +15,7 @@ public_folder: /img
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
-  - label: 'Site settings'
+  - label: 'Seiteneinstellungen'
     name: 'site'
     files:
       - label: 'Info'
@@ -25,12 +25,12 @@ collections:
         editor:
           preview: false
         fields:
-          - { label: Site Name, name: sitename, widget: string, hint: 'This is used for the site title' }
+          - { label: Seitenname, name: sitename, widget: string, hint: 'Dies wird für den Seitentitel verwendet' }
           - {
-              label: Site Description,
+              label: Seitenbeschreibung,
               name: sitedescription,
               widget: string,
-              hint: 'This is used as descriptive text for links that link to this site',
+              hint: 'Dies wird als beschreibender Text für Links verwendet, die auf diese Site verweisen',
             }
           - {
               label: Site Language,
@@ -48,13 +48,13 @@ collections:
     # editor:
     #   preview: true
     fields:
-      - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: false }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Erstellungsdatum', name: 'createdAt', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: false }
+      - { label: 'Headline', name: 'title', widget: 'string', required: true }
+      - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
+      - { label: 'Inhalt', name: 'body', widget: 'markdown', required: false }
   - name: 'projects'
-    label: 'Projects'
-    label_singular: 'Project'
+    label: 'Projekte'
+    label_singular: 'Projekt'
     folder: 'content/projects'
     create: true
     format: 'frontmatter'
@@ -62,18 +62,18 @@ collections:
     preview_path: 'projects/{{slug}}'
     fields:
       - {
-          label: 'Project Category',
+          label: 'Kategorie',
           name: 'category',
           widget: 'select',
-          default: 'animals',
-          options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
+          default: 'website',
+          options: [{ label: 'Website', value: 'website' }, { label: 'Virtual Reality', value: 'vr' }, { label: 'Advertising', value: 'advertising' }, { label: 'Digital Branding', value: 'digitalbranding' }, { label: 'Design System', value: 'designsystem' }, { label: 'Products & Platforms', value: 'productsandplatforms' }, { label: 'Commerce', value: 'commerce' }, { label: 'Social Media', value: 'socialmedia' }],
         }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
-      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Headline', name: 'title', widget: 'string', required: true }
+      - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
+      - { label: 'Titelbild', name: 'cover', widget: 'image', required: false, allow_multiple: false }
+      - { label: 'Inhalt', name: 'body', widget: 'markdown', required: false }
       - {
-          label: 'Gallery',
+          label: 'Bildergalerie',
           name: 'gallery',
           widget: 'list',
           required: false,
