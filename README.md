@@ -1,6 +1,6 @@
 # 🏗️ Boilerplate for Nuxt, Tailwind & NetlifyCMS
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2b5306bb-058d-44c2-bfa4-84be85ea5531/deploy-status)](https://app.netlify.com/sites/competent-lalande-f57c98/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2b5306bb-058d-44c2-bfa4-84be85ea5531/deploy-status)](https://app.netlify.com/sites/nuxtjs-netlifycms-blog/deploys)
 
 **[Live Demo](https://competent-lalande-f57c98.netlify.app/)**
 
