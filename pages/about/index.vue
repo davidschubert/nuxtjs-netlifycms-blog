@@ -14,46 +14,40 @@
 
 <script>
 export default {
-  transition: 'intro'
+  transition: {
+    name: 'intro',
+    mode: 'out-in'
+  }
 }
 </script>
 
 <style lang="scss">
-$t-duration: 800ms;
-$t-delay: 300ms;
+$t-duration: 500ms;
 
 .intro-enter-active,
 .intro-leave-active {
-  z-index: 50;
   transition-duration: $t-duration * 2;
 
-  &::before,
-  &::after {
+  &::before {
     content: "";
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 50;
     display: block;
     width: 100%;
-    height: 50%;
+    height: 100%;
     transition-property: opacity, transform;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   }
 
   &::before {
-    background-color: #f80091;
-  }
-
-  &::after {
-    top: 50%;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
   }
 }
 
 .intro-leave {
-  &::before,
-  &::after {
+  &::before {
     transform: scaleX(0);
   }
 }
@@ -62,24 +56,17 @@ $t-delay: 300ms;
   &::before {
     transition-duration: $t-duration;
   }
-
-  &::after {
-    transition-duration: $t-duration - $t-delay;
-    transition-delay: $t-delay;
-  }
 }
 
 .intro-leave-to {
-  &::before,
-  &::after {
-    transform: scale(1);
+  &::before {
+    transform: scaleX(1);
     transform-origin: left;
   }
 }
 
 .intro-enter {
-  &::before,
-  &::after {
+  &::before {
     transform: scaleX(1);
   }
 }
@@ -88,16 +75,10 @@ $t-delay: 300ms;
   &::before {
     transition-duration: $t-duration;
   }
-
-  &::after {
-    transition-duration: $t-duration - $t-delay;
-    transition-delay: $t-delay;
-  }
 }
 
 .intro-enter-to {
-  &::before,
-  &::after {
+  &::before {
     transform: scaleX(0);
     transform-origin: right;
   }
