@@ -2,6 +2,23 @@ import postcssPresetEnv from 'postcss-preset-env'
 import postcssEasingGradients from 'postcss-easing-gradients'
 import * as SITE_INFO from './content/site/info.json'
 import { COLOR_MODE_FALLBACK } from './utils/globals.js'
+import fs from 'fs'
+
+// 1
+let appVersion
+try {
+  appVersion = fs.readFileSync('./.version', 'utf8')
+} catch (err) {
+  appVersion = 'dev'
+}
+
+// 2
+let appLastUpdatedAt
+try {
+  appLastUpdatedAt = fs.readFileSync('./.last-updated-at', 'utf8')
+} catch (err) {
+  appLastUpdatedAt = new Date()
+}
 
 export default {
   target: 'static',
@@ -90,8 +107,15 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
     '@nuxtjs/pwa',
+    '@nuxtjs/moment',
     '@nuxt/image'
   ],
+  moment: {
+    defaultLocale: 'de',
+    locales: ['de'],
+    timezone: true,
+    defaultTimezone: 'Europe/Berlin'
+  },
   /*
    ** Nuxt.js modules
    */
@@ -198,5 +222,10 @@ export default {
   content: {
     // Disable for security reason on CodeSandBox
     liveEdit: true
+  },
+  // environment variables used by nuxt. um die version auszuspielen und das letzte update datum
+  publicRuntimeConfig: {
+    appVersion,
+    appLastUpdatedAt
   }
 }
