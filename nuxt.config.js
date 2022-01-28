@@ -68,7 +68,12 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#ff0000' },
+  loading: {
+    color: 'DodgerBlue',
+    height: '100px',
+    continuous: true,
+    duration: 3000
+  },
   /*
    ** Global CSS
    */
@@ -80,7 +85,13 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa'],
+  buildModules: [
+    '@nuxtjs/color-mode',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/svg',
+    '@nuxtjs/pwa',
+    '@nuxt/image'
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -168,5 +179,24 @@ export default {
       appleStatusBarStyle: 'black'
     }
   },
-  pageTransition: 'davsch' // assets/css/main.css
+  pageTransition: 'davsch', // assets/css/main.css
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536
+    },
+  },
+  server: {
+    host: '0' // default: localhost
+  },
+  content: {
+    // Disable for security reason on CodeSandBox
+    liveEdit: true
+  }
 }

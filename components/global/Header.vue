@@ -14,6 +14,9 @@
         <nuxt-link class="btn block" to="/about">About</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
+        <nuxt-link class="btn block" to="/kultur">Kultur</nuxt-link>
+      </li>
+      <li class="flex-1 ml-2">
         <nuxt-link class="btn block" to="/contact">Contact</nuxt-link>
       </li>
     </ul>
