@@ -1,26 +1,23 @@
 <template>
-  <div class="fixed bottom-0 right-0 m-3">
+  <div class="fixed bottom-0 right-0 m-3 bg-white">
     Version: <b>{{ $config.appVersion }}</b>
     <br />
     Locale: <b>{{ $moment($config.appLastUpdatedAt).locale() }}</b>
     <br />
     Updated am:
-    <b>{{ $moment($config.appLastUpdatedAt).format('dddd, DD.MM.YYYY, hh:mm:ss A, Z') }}</b>
+    <b>{{ $moment($config.appLastUpdatedAt).format('dddd, DD.MM.YYYY, HH:mm:ss') }}</b>
     <br />
-    Updated am:
-    <b>{{ $moment($config.appLastUpdatedAt).format('DD.MM.YYYY, HH:mm:ss, Z') }}</b>
+    Updated (second): <b>{{ $moment($config.appLastUpdatedAt).startOf('second').fromNow() }}</b>
     <br />
-    Updated <b>{{ $moment($config.appLastUpdatedAt).startOf('second').fromNow() }}</b>
+    Updated (minute): <b>{{ $moment($config.appLastUpdatedAt).startOf('minute').fromNow() }}</b>
     <br />
-    Updated <b>{{ $moment($config.appLastUpdatedAt).startOf('minute').fromNow() }}</b>
+    Updated (hour): <b>{{ $moment($config.appLastUpdatedAt).startOf('hour').fromNow() }}</b>
     <br />
-    Updated <b>{{ $moment($config.appLastUpdatedAt).startOf('hour').fromNow() }}</b>
+    Updated (day): <b>{{ $moment($config.appLastUpdatedAt).startOf('day').fromNow() }}</b>
     <br />
-    Updated <b>{{ $moment($config.appLastUpdatedAt).startOf('day').fromNow() }}</b>
+    Solution (seconds): <b>{{ $moment.utc($config.appLastUpdatedAt).local().startOf('seconds').fromNow() }}</b>
     <br />
-    Solution: <b>{{ $moment.utc($config.appLastUpdatedAt).local().startOf('seconds').fromNow() }}</b>
-    <br />
-    Solution: <b>{{ $moment($config.appLastUpdatedAt).fromNow() }}</b>
+    Solution (fromNow): <b>{{ $moment($config.appLastUpdatedAt).fromNow() }}</b>
   </div>
 </template>
 
