@@ -1,17 +1,29 @@
-site_url: https://6co.de/
-logo_url: https://6co.de/icon.png
+# used together with `npx netlify-cms-proxy-server`. https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+local_backend: true
 
-publish_mode: editorial_workflow
 backend:
   name: git-gateway
   branch: master
   squash_merges: true
 
-# used together with `npx netlify-cms-proxy-server`. https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
-local_backend: true
+site_url: https://6co.de
+display_url: https://6co.de
+logo_url: https://6co.de/icon.png
 
-media_folder: static/img
-public_folder: /img
+# CMS Settings
+locale: 'de'
+show_preview_links: false
+search: false
+publish_mode: editorial_workflow
+
+# Slug Settings
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+media_folder: static/img/uploads
+public_folder: /img/uploads
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
@@ -33,19 +45,84 @@ collections:
               hint: 'Dies wird als beschreibender Text für Links verwendet, die auf diese Site verweisen',
             }
           - {
-              label: Site Language,
+              label: Seitensprache,
               name: sitelang,
               widget: string,
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
+  - label: 'Standard Seiten'
+    name: 'pages'
+    files:
+      - label: 'Impressum'
+        name: 'impressum'
+        file: 'content/standard/impress.json'
+        format: 'json'
+        editor:
+          preview: true
+        fields:
+          - {
+              label: Title Tag,
+              name: titletag,
+              widget: string,
+              hint: 'SEO – Dies wird für den Seitentitel verwendet',
+              pattern: ['.{5,60}', "Must have at least 5 characters and max 60"],
+              required: true
+            }
+          - {
+              label: Meta Description,
+              name: metadescription,
+              widget: string,
+              hint: 'SEO – Your meta description length should be kept descriptive and between 150 and 160 characters for optimal length, and this includes spaces',
+              pattern: ['.{150,160}', "Must have at least 150 characters and max 160"],
+              required: true
+            }
+          - { label: Content, name: content, widget: markdown, required: false }
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+      - label: 'Datenschutz'
+        name: 'datenschutz'
+        file: 'content/standard/datenschutz.json'
+        format: 'json'
+        editor:
+          preview: true
+        fields:
+          - {
+              label: Title Tag,
+              name: titletag,
+              widget: string,
+              hint: 'SEO – Dies wird für den Seitentitel verwendet',
+              pattern: ['.{5,60}', "Must have at least 5 characters and max 60"],
+              required: true
+            }
+          - {
+              label: Meta Description,
+              name: metadescription,
+              widget: string,
+              hint: 'SEO – Your meta description length should be kept descriptive and between 150 and 160 characters for optimal length, and this includes spaces',
+              pattern: ['.{150,160}', "Must have at least 150 characters and max 160"],
+              required: true
+            }
+          - { label: Content, name: content, widget: markdown, required: false }
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
     format: 'frontmatter'
     create: true
     slug: '{{fields.createdAt}}-{{slug}}'
-    preview_path: 'blog/{{fields.createdAt}}-{{slug}}'
+    preview_path: 'blog/{{slug}}'
     editor:
       preview: true
     fields:
