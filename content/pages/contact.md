@@ -1,6 +1,6 @@
 ---
-title: Fill Murrays
-description: Yet another placeholding project, but with Bills
+title: Kontakt
+description: Hier steht die Beschreibung
 cover: https://www.fillmurray.com/g/400/200
 ---
 

@@ -45,8 +45,9 @@ collections:
     format: 'frontmatter'
     create: true
     slug: '{{fields.createdAt}}-{{slug}}'
+    preview_path: 'blog/{{fields.createdAt}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Erstellungsdatum', name: 'createdAt', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: false }
       - { label: 'Headline', name: 'title', widget: 'string', required: true }
