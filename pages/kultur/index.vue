@@ -43,10 +43,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source
                     src="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.webm"
@@ -69,12 +71,14 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <video
+                <picture
                   poster="https://antoni.de/wp-content/uploads/2021/11/bar_martin_still_211103.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source
                     src="https://antoni.de/wp-content/uploads/2021/11/bar_martin_gif_211103_1.webm"
@@ -84,7 +88,7 @@
                     src="https://antoni.de/wp-content/uploads/2021/11/bar_martin_gif_211103.mp4"
                     type="video/mp4"
                   />
-                </video>
+                </picture>
               </figure>
             </div>
           </div>
@@ -149,10 +153,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2020/09/Posterimage_giga_rocket_200915.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source src="https://antoni.de/wp-content/uploads/2020/09/SquareRocket.webm" type="video/webm" />
                   <source src="https://antoni.de/wp-content/uploads/2020/09/SquareRocket.mp4" type="video/mp4" />
@@ -332,10 +338,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2019/06/adc2.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source src="https://antoni.de/wp-content/uploads/2019/06/adc2.webm" type="video/webm" />
                   <source src="https://antoni.de/wp-content/uploads/2019/06/adc2.mp4" type="video/mp4" />
@@ -467,10 +475,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2018/07/antoni-blockparty-story_1.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source
                     src="https://antoni.de/wp-content/uploads/2018/07/antoni-blockparty-story_1.webm"
@@ -629,10 +639,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2018/01/culture_year.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source src="https://antoni.de/wp-content/uploads/2018/01/culture_year_2.webm" type="video/webm" />
                   <source src="https://antoni.de/wp-content/uploads/2018/01/culture_year_2.mp4" type="video/mp4" />
@@ -683,10 +695,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2017/08/culture_2-1024x1024-c-default.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source src="https://antoni.de/wp-content/uploads/2017/08/culture_2222.webm" type="video/webm" />
                   <source src="https://antoni.de/wp-content/uploads/2017/08/culture_2222.mp4" type="video/mp4" />
@@ -749,10 +763,12 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2017/08/cool_page1-1024x1024-c-default.jpg"
-                  preload="none"
-                  autoplay="autoplay"
-                  loop="loop"
-                  muted="muted"
+                  preload="auto"
+                  autobuffer
+                  autoplay
+                  loop
+                  muted
+                  playsinline
                 >
                   <source src="https://antoni.de/wp-content/uploads/2017/08/culture_loop1.webm" type="video/webm" />
                   <source
@@ -865,7 +881,7 @@ export default {
     name: 'intro',
     mode: 'out-in',
     duration: 300,
-  }
+  },
 }
 </script>
 

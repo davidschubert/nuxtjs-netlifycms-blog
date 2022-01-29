@@ -42,11 +42,11 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
-    create: true
     format: 'frontmatter'
+    create: true
     slug: '{{fields.createdAt}}-{{slug}}'
-    # editor:
-    #   preview: true
+    editor:
+      preview: false
     fields:
       - { label: 'Erstellungsdatum', name: 'createdAt', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: false }
       - { label: 'Headline', name: 'title', widget: 'string', required: true }
@@ -80,3 +80,8 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+  - name: 'contact'
+    files:
+      - name: contact
+        file: content/pages/contact.md
+        preview_path: about-the-project
