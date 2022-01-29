@@ -81,6 +81,7 @@ collections:
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
   - name: 'contact'
+    label: 'Kontakt'
     files:
       - name: contact
         file: content/pages/contact.md
