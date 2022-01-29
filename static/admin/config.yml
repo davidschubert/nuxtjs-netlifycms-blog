@@ -83,6 +83,12 @@ collections:
   - name: 'contact'
     label: 'Kontakt'
     files:
-      - name: contact
+      - name: 'contact'
+        label: 'Contact'
         file: content/pages/contact.md
         preview_path: about-the-project
+        fields:
+          - { label: 'Headline', name: 'title', widget: 'string', required: true }
+          - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
+          - { label: 'Titelbild', name: 'cover', widget: 'image', required: false, allow_multiple: false }
+          - { label: 'Inhalt', name: 'body', widget: 'markdown', required: false }
