@@ -127,10 +127,13 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Erstellungsdatum', name: 'createdAt', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: false }
-      - { label: 'Headline', name: 'title', widget: 'string', required: true }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Beschreibung', name: 'description', widget: 'string', required: false }
+      - { label: 'Erstellungsdatum', name: 'createdAt', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: false }
+      - { label: 'Header Image', name: 'headerimage', widget: 'image', required: false }
       - { label: 'Inhalt', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Author', name: 'author', widget: 'hidden', default: 'David Schubert' }
   - name: 'projects'
     label: 'Projekte'
     label_singular: 'Projekt'

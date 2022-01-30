@@ -1,0 +1,17 @@
+{
+  "titletag": "Impressum Title Crazy",
+  "metadescription": "Impressum description dasdasd dasdasd asdas dasdasd dasd asd dasd asdasdsd sdf sdfsdf sdfsd dfdfd df fdf sdfgdfsg dsfgd sgdsg dfgdf   gdfgdffffffffgdfgdfg dfgdsfds fsd,f bsfmnsdbfm nsdbfmsdn bsm,dfnb m,fnbasm,fb as,mfb ,mn mdbfdnsbfmnsdbf smnfbsn bdndfds fsd f",
+  "content": "# Impressum Content\n\n## Cooler Inhalt hier\n\n\n\n```html\n<a href=\"#\" target=\"_blank\">lol</a>\n```",
+  "team": [
+    {
+      "name": "David Schubert",
+      "position": "Stürmer",
+      "photo": "/img/uploads/david_schubert.jpg"
+    },
+    {
+      "name": "Mischa Kowisk",
+      "position": "Abwehr",
+      "photo": "/img/uploads/68da12fa1df4c876004b04b8b47c419a228d8500.png"
+    }
+  ]
+}
