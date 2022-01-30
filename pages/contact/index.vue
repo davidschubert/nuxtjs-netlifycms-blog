@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import * as SITE_INFO from './content/standard/impress.json'
+import * as SITE_CONTENT from '~/content/standard/impress.json'
 
 export default {
   async asyncData({ $content, params, error }) {
@@ -55,7 +55,7 @@ export default {
     } catch (e) {
       error({ message: 'Impressum content not found' })
     }
-    return { mycontent }
+    return { SITE_CONTENT }
   },
 }
 </script>
