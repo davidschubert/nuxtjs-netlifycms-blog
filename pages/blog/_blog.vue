@@ -4,7 +4,6 @@
       <nav class="mb-8" aria-label="go back">
         <router-back class="block" />
       </nav>
-
       <article>
         <h5
           v-if="post.createdAt"

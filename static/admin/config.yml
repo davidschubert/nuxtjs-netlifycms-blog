@@ -56,8 +56,9 @@ collections:
     files:
       - label: 'Impressum'
         name: 'impressum'
-        file: 'content/standard/impress.json'
-        format: 'json'
+        file: 'content/standard/impress.md'
+        format: 'md'
+        publish: false
         editor:
           preview: true
         fields:
@@ -74,10 +75,10 @@ collections:
               name: metadescription,
               widget: string,
               hint: 'SEO – Your meta description length should be kept descriptive and between 150 and 160 characters for optimal length, and this includes spaces',
-              pattern: ['.{150,160}', "Must have at least 150 characters and max 160"],
+              pattern: ['.{5,160}', "Must have at least 150 characters and max 160"],
               required: true
             }
-          - { label: Content, name: content, widget: markdown, required: false }
+          - { label: Content, name: body, widget: markdown, required: false }
           - label: Team
             name: team
             widget: list
@@ -108,7 +109,7 @@ collections:
               pattern: ['.{150,160}', "Must have at least 150 characters and max 160"],
               required: true
             }
-          - { label: Content, name: content, widget: markdown, required: false }
+          - { label: Content, name: body, widget: markdown, required: false }
           - label: Team
             name: team
             widget: list
