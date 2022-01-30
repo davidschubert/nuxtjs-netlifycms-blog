@@ -56,8 +56,8 @@ collections:
     files:
       - label: 'Impressum'
         name: 'impressum'
-        file: 'content/standard/impress.md'
-        format: 'md'
+        file: 'content/standard/impress.json'
+        format: 'json'
         publish: false
         editor:
           preview: true
