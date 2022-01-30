@@ -45,6 +45,8 @@
 </template>
 
 <script>
+import * as SITE_INFO from './content/standard/impress.json'
+
 export default {
   async asyncData({ $content, params, error }) {
     let mycontent
@@ -54,12 +56,6 @@ export default {
       error({ message: 'Impressum content not found' })
     }
     return { mycontent }
-  },
-  methods: {
-    formatDate(dateString) {
-      const date = new Date(dateString)
-      return date.toLocaleDateString(process.env.lang) || ''
-    },
   },
 }
 </script>
