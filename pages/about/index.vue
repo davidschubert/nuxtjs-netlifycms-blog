@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import * as PAGE_CONTENT from '@/content/standard/datenschutz.json'
+
 
 export default {
   transition: {

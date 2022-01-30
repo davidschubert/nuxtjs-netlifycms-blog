@@ -53,7 +53,7 @@ export default {
     } catch (e) {
       error({ message: 'Impressum content not found' })
     }
-    return { post }
+    return { mycontent }
   },
   methods: {
     formatDate(dateString) {
