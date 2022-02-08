@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@nuxt/content": "^1.14.0",
+    "@nuxtjs/axios": "^5.13.6",
     "fs": "^0.0.1-security",
     "nuxt": "^2.15.8"
   },
@@ -29,7 +30,7 @@
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "netlify-cli": "^7.0.0",
+    "netlify-cli": "^8.19.3",
     "nuxt-purgecss": "^1.0.0",
     "postcss": "^8.3.11",
     "postcss-easing-gradients": "^3.0.1",
