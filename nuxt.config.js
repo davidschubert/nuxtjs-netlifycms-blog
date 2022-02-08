@@ -85,11 +85,11 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: {
-    color: 'DodgerBlue',
-    height: '100px',
-    continuous: true,
-    duration: 3000
+  loading: '~/components/LoadingBar.vue',
+  loadingIndicator: {
+    name: 'nuxt',
+    color: '#3B8070',
+    background: 'white'
   },
   /*
    ** Global CSS
@@ -121,7 +121,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/axios'],
   /*
    ** Build configuration
    */

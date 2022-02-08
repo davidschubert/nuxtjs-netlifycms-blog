@@ -19,7 +19,3 @@
     Maui: {{ $moment().tz('Pacific/Honolulu').format('dddd, DD.MM.YYYY, HH:mm:ss') }}
   </div>
 </template>
-
-<script></script>
-
-<style></style>

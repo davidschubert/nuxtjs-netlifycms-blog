@@ -10,40 +10,54 @@
         <div class="container">
           <div class="row">
             <div class="col col--1">
-              <figure class="media media--3 media--small r r--1-1"><img src="/img/david_schubert.jpg" alt="" /></figure>
+              <figure class="media media--3 media--small r r--1-1">
+                <img src="/img/uploads/david_schubert.jpg" loading="auto" alt="" />
+              </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2022/01/antoni_culture_01-22.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2022/01/antoni_culture_01-22.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-02.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-02.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/antoni-zusammen-gegen-corona.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/12/antoni-zusammen-gegen-corona.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-01-1.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-01-1.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/IMG_4843.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/12/IMG_4843.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.jpg"
-                  preload="auto"
+                  preload="none"
                   autobuffer
                   autoplay
                   loop
@@ -63,17 +77,21 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/10/culture_01_211015.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/10/culture_01_211015.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/10/horizont_award_211015.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/10/horizont_award_211015.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <picture
                   poster="https://antoni.de/wp-content/uploads/2021/11/bar_martin_still_211103.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -95,65 +113,77 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/09/antoni-culture-eqg.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/09/antoni-culture-eqg.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/10/culture_211015.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/10/culture_211015.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/03/katjes_nikeata_210303.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/03/katjes_nikeata_210303.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/03/running_crew_03_2021.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/03/running_crew_03_2021.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_2_210311.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_2_210311.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_3_210311.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_3_210311.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_1_210311.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/03/culture_1_210311.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/01/antoni_scarf_xmas_2020.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2021/01/antoni_scarf_xmas_2020.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/01/christmas-tree-2020.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2021/01/christmas-tree-2020.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/09/rooftop_20200903.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2020/09/rooftop_20200903.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2020/09/Posterimage_giga_rocket_200915.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -169,24 +199,32 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/09/katjes_granny_20200903.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2020/09/katjes_granny_20200903.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/09/behind-the-scenes-sweet-power.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2020/09/behind-the-scenes-sweet-power.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/08/IMG_7814.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2020/08/IMG_7814.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/08/IMG_7817.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2020/08/IMG_7817.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
@@ -195,26 +233,32 @@
               <figure class="media media--3 media--small r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2020/08/Bildschirmfoto-2020-06-11-um-14.13.36-2-2.png"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/04/Teams_culture_antoni.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2020/04/Teams_culture_antoni.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2020/02/DSC_1983.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2020/02/DSC_1983.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2020/02/784E8050-036E-49BA-B541-1C1788F6EA9A.jpg"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
@@ -223,82 +267,82 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="" alt="" />
+                <img src="/img/uploads/david_schubert.jpg" loading="lazy" alt="David Schubert" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/12/office_view.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/12/office_view.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post66.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post66.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/water4.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/water4.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post8.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post8.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post7.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post7.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post6.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post6.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post5.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post5.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post4-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post4-1.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post44.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post44.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post2-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post2-1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post33.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post33.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/block.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/block.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post3.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post3.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/katjes.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/katjes.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/katj.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/katj.jpg" loading="lazy" alt="" />
                 <figcaption class="description">
                   <h2>katj</h2>
                 </figcaption>
@@ -306,39 +350,39 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/katjes4.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/katjes4.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/06/1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/06/1.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/block2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/block2.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/07/DSC_9423.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/07/DSC_9423.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/06/adc_awards.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/06/adc_awards.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/06/2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/06/2.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2019/06/adc2.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -359,41 +403,41 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/03/cult65.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/03/cult65.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/03/cult5.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/03/cult5.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/03/cult4.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/03/cult4.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/03/cult_02.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/03/cult_02.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/03/cult_01.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/03/cult_01.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/01/FW_weloveyou_078.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/01/FW_weloveyou_078.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2019/09/post3-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2019/09/post3-1.jpg" loading="lazy" alt="" />
                 <figcaption class="description">
                   <h2>post3</h2>
                 </figcaption>
@@ -401,7 +445,7 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/12/stolen_stars.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/12/stolen_stars.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
@@ -410,12 +454,14 @@
               <figure class="media media--1 media--small r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2018/10/41882031_1802872639761027_4392090868674730616_n.jpg"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2018/10/37243046_2185020255075586_1743551749156765696_n.jpg"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
@@ -424,6 +470,7 @@
               <figure class="media media--large r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2018/10/40298721_269055923714511_3799137506653748611_n.jpg"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
@@ -432,40 +479,40 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/cult2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/cult2.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/cult_futball.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/cult_futball.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/cult3.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/cult3.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/cult53.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/cult53.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/cult33.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/cult33.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/07/AfterlightImage.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/07/AfterlightImage.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/08/soccer_gp.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/08/soccer_gp.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/07/img1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/07/img1.jpg" loading="lazy" alt="" />
                 <figcaption class="description">
                   <h2>img1</h2>
                 </figcaption>
@@ -475,7 +522,7 @@
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2018/07/antoni-blockparty-story_1.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -497,30 +544,30 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/07/bloc2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/07/bloc2.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/07/blackparty.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/07/blackparty.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/07/fish.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/07/fish.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/01_martin.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/01_martin.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/06/01.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/06/01.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/all02.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/all02.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
@@ -532,7 +579,7 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/ahoj_2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/ahoj_2.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
@@ -544,83 +591,92 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/hand_nails.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/hand_nails.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/rockyxantoni.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/rockyxantoni.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/05/culture_kart.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/05/culture_kart.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/IMG_2745-Kopie_1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/IMG_2745-Kopie_1.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/IMG_2148_1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/IMG_2148_1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/top1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/top1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_team.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_team.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_tim-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_tim-1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_3dfloor.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/04/culture_3dfloor.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/02/hazrl_johanna.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/02/hazrl_johanna.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/02/square_culture_management.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2018/02/square_culture_management.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/02/cult2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/02/cult2.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_5.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_5.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture111-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture111-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <img
                   src="https://antoni.de/wp-content/uploads/2017/08/17436226_1780916522225474_5264563799070182564_o-1024x1024-c-default.jpg"
+                  loading="lazy"
                   alt=""
                 />
               </figure>
@@ -629,17 +685,17 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/strongerthentime2.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/strongerthentime2.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/strongerthentime.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/strongerthentime.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2018/01/culture_year.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -655,47 +711,59 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_arnold.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_arnold.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_matti.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_matti.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/culture.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture3.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2018/01/culture3.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_xmas4-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2018/01/culture_xmas4-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2018/01/culture_xmas-1024x1024-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2018/01/culture_xmas-1024x1024-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/tumb_mid-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/tumb_mid-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_9.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_9.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2017/08/culture_2-1024x1024-c-default.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -711,59 +779,83 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_bt2-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/cool_bt2-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_13.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_13.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/antoniii-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/antoniii-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_6.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_6.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/DSC_5800-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/DSC_5800-1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_6-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture_6-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/IMG_9323-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/IMG_9323-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_1-1024x1024-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture_1-1024x1024-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_19-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/cool_19-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_8.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_8.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
                   poster="https://antoni.de/wp-content/uploads/2017/08/cool_page1-1024x1024-c-default.jpg"
-                  preload="auto"
+                  preload="false"
                   autobuffer
                   autoplay
                   loop
@@ -782,90 +874,126 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/IMG_9448-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/IMG_9448-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/welcome.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/welcome.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_7.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_7.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/mb_fire-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/mb_fire-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/cool_15-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/08/cool_15-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_3.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/culture_3.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/youarenotinvited.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/youarenotinvited.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/vr-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/vr-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/no_parking-1024x1024-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/no_parking-1024x1024-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/snow_kamp-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/snow_kamp-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/08/super3.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/08/super3.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/skate.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/skate.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture222.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/culture222.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture66.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/12/culture66.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/10/makingof_lion-1.jpg" alt="" />
+                <img src="https://antoni.de/wp-content/uploads/2017/10/makingof_lion-1.jpg" loading="lazy" alt="" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture77-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture77-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture87-600x600-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture87-600x600-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2017/12/culture33-1024x1024-c-default.jpg" alt="" />
+                <img
+                  src="https://antoni.de/wp-content/uploads/2017/12/culture33-1024x1024-c-default.jpg"
+                  loading="lazy"
+                  alt=""
+                />
               </figure>
             </div>
           </div>
@@ -886,12 +1014,12 @@ export default {
 </script>
 
 <style>
-::selection {
+/* ::selection {
   background: #222;
   color: #fff;
-}
+} */
 
-div,
+/* div,
 article,
 aside,
 details,
@@ -1009,7 +1137,7 @@ body {
   font-smoothing: antialiased;
   height: 100vh;
   width: 100%;
-}
+} */
 
 @media screen and (max-width: 740px) {
   main {

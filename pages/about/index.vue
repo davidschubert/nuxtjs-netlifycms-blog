@@ -9,7 +9,7 @@
       <h2>Normal-Image Tag</h2>
       <figure>
         <nuxt-img
-          src="/img/david_schubert.jpg"
+          src="/img/uploads/david_schubert.jpg"
           alt="Image Placeholder"
           sizes="sm:50vw md:150vw lg:400vw"
           format="webp"
@@ -49,12 +49,12 @@
       <br />
       <br />
       <h2>Normal-Image Tag</h2>
-      <img src="/img/david_schubert.jpg" alt="Image Placeholder" /><br />
+      <img src="/img/uploads/david_schubert.jpg" alt="Image Placeholder" /><br />
       <br />
       <h2>Nuxt-Image Tag</h2>
       <nuxt-img
         preload
-        src="/img/david_schubert.jpg"
+        src="/img/uploads/david_schubert.jpg"
         sizes="sm:100vw md:50vw lg:400px"
         alt="Image Placeholder"
         format="webp"
@@ -67,7 +67,7 @@
       <br />
       <h2>Nuxt-Picture Tag</h2>
       <nuxt-picture
-        src="/img/david_schubert.jpg"
+        src="/img/uploads/david_schubert.jpg"
         :imgAttrs="{ id: 'my-id', class: 'my-class', style: 'display:block', 'data-my-data': 'my-value' }"
         sizes="sm:100vw md:50vw lg:400px"
         alt="Image Placeholder"
@@ -94,14 +94,12 @@
         Gerüchten zufolge liegt dies nicht nur an den unterschiedlichen finanziellen Vorstellungen zwischen Klub und
         Spieler, sondern auch an der fehlenden Wertschätzung durch die Bayern-Bosse in den vergangenen Jahren.
       </p>
-      <p style="background-color: yellow">Inhalt: {{ PAGE_CONTENT.metadescription }}</p>
+      <!--<p style="background-color: yellow">Inhalt: {{ PAGE_CONTENT.metadescription }}</p>-->
     </section>
   </main>
 </template>
 
 <script>
-
-
 export default {
   transition: {
     name: 'intro',
