@@ -56,7 +56,7 @@
 
         <!-- Abfrage für ein Object Array -->
         <div class="grid gap-4 grid-cols-2">
-          <div class="my-4 p-4 bg-white" v-for="(spieler, index) in impressum.team" :name="spieler.name">
+          <div class="my-4 p-4 bg-white" v-for="spieler in impressum.team" :name="spieler.name">
             <h3>{{ spieler.name }}</h3>
             <p>{{ spieler.position }}</p>
             <p><nuxt-img v-bind:src="spieler.photo" width="300" height="250" v-bind:alt="spieler.name" /></p>

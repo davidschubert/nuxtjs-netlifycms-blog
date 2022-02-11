@@ -9,7 +9,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const impressum = await $content('meta/impress').fetch()
+    const impressum = await $content('meta/impressum').fetch()
 
     return {
       impressum,
