@@ -11,12 +11,26 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="/img/uploads/david_schubert.jpg" loading="auto" alt="Lorem" />
+                <nuxt-img
+                  format="webp"
+                  preload
+                  src="/img/uploads/david_schubert.jpg"
+                  loading="auto"
+                  alt="David Schubert"
+                  quality="1"
+                />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img src="/img/kultur/antoni_culture_01-22.jpg" loading="lazy" alt="Lorem" />
+                <nuxt-img
+                  format="webp"
+                  preload
+                  src="/img/kultur/antoni_culture_01-22.jpg"
+                  loading="lazy"
+                  alt="Aldi Socken"
+                  quality="1"
+                />
               </figure>
             </div>
           </div>
