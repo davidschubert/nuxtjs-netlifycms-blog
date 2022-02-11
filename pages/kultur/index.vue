@@ -11,52 +11,40 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="/img/uploads/david_schubert.jpg" loading="auto" alt="" />
+                <img src="/img/uploads/david_schubert.jpg" loading="auto" alt="Lorem" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img
-                  src="https://antoni.de/wp-content/uploads/2022/01/antoni_culture_01-22.jpg"
-                  loading="lazy"
-                  alt=""
-                />
+                <img src="/img/kultur/antoni_culture_01-22.jpg" loading="lazy" alt="Lorem" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-02.jpg" loading="lazy" alt="" />
+                <img src="/img/kultur/antoni-christmas-02.jpg" loading="lazy" alt="Lorem" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img
-                  src="https://antoni.de/wp-content/uploads/2021/12/antoni-zusammen-gegen-corona.jpg"
-                  loading="lazy"
-                  alt=""
-                />
+                <img src="/img/kultur/antoni-zusammen-gegen-corona.jpg" loading="lazy" alt="Lorem" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <img
-                  src="https://antoni.de/wp-content/uploads/2021/12/antoni-christmas-01-1.jpg"
-                  loading="lazy"
-                  alt=""
-                />
+                <img src="/img/kultur/antoni-christmas-01-1.jpg" loading="lazy" alt="Lorem" />
               </figure>
             </div>
           </div>
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/12/IMG_4843.jpg" loading="lazy" alt="" />
+                <img src="/img/kultur/IMG_4843.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
-                  poster="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.jpg"
+                  poster="/img/kultur/summer-party-light.jpg"
                   preload="none"
                   autobuffer
                   autoplay
@@ -64,11 +52,8 @@
                   muted
                   playsinline
                 >
-                  <source
-                    src="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.webm"
-                    type="video/webm"
-                  />
-                  <source src="https://antoni.de/wp-content/uploads/2021/12/summer-party-light.mp4" type="video/mp4" />
+                  <source src="/img/kultur/summer-party-light.webm" type="video/webm" />
+                  <source src="/img/kultur/summer-party-light.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </figure>
@@ -77,20 +62,16 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
-                <img src="https://antoni.de/wp-content/uploads/2021/10/culture_01_211015.jpg" loading="lazy" alt="" />
+                <img src="/img/kultur/culture_01_211015.jpg" loading="lazy" alt="" />
               </figure>
               <figure class="media media--2 media--small r r--1-1">
-                <img
-                  src="https://antoni.de/wp-content/uploads/2021/10/horizont_award_211015.jpg"
-                  loading="lazy"
-                  alt=""
-                />
+                <img src="/img/kultur/horizont_award_211015.jpg" loading="lazy" alt="" />
               </figure>
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <picture
-                  poster="https://antoni.de/wp-content/uploads/2021/11/bar_martin_still_211103.jpg"
+                <video
+                  poster="/img/kultur/bar_martin_still_211103.jpg"
                   preload="false"
                   autobuffer
                   autoplay
@@ -106,7 +87,7 @@
                     src="https://antoni.de/wp-content/uploads/2021/11/bar_martin_gif_211103.mp4"
                     type="video/mp4"
                   />
-                </picture>
+                </video>
               </figure>
             </div>
           </div>
@@ -182,7 +163,7 @@
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
                 <video
-                  poster="https://antoni.de/wp-content/uploads/2020/09/Posterimage_giga_rocket_200915.jpg"
+                  poster="/img/kultur/Posterimage_giga_rocket_200915.jpg"
                   preload="false"
                   autobuffer
                   autoplay
@@ -380,15 +361,7 @@
             </div>
             <div class="col col--2">
               <figure class="media media--large r r--1-1">
-                <video
-                  poster="https://antoni.de/wp-content/uploads/2019/06/adc2.jpg"
-                  preload="false"
-                  autobuffer
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                >
+                <video poster="/img/kultur/adc2.jpg" preload="false" autobuffer autoplay loop muted playsinline>
                   <source src="https://antoni.de/wp-content/uploads/2019/06/adc2.webm" type="video/webm" />
                   <source src="https://antoni.de/wp-content/uploads/2019/06/adc2.mp4" type="video/mp4" />
                 </video>
@@ -398,7 +371,7 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="" alt="" />
+                <img src="/img/uploads/david_schubert.jpg" loading="lazy" alt="David Schubert" />
               </figure>
             </div>
             <div class="col col--2">
@@ -574,7 +547,7 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="" alt="" />
+                <img src="/img/uploads/david_schubert.jpg" loading="lazy" alt="David Schubert" />
               </figure>
             </div>
             <div class="col col--2">
@@ -586,7 +559,7 @@
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
-                <img src="" alt="" />
+                <img src="/img/uploads/david_schubert.jpg" loading="lazy" alt="David Schubert" />
               </figure>
             </div>
             <div class="col col--2">
