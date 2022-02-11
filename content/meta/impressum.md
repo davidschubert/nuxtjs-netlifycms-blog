@@ -88,4 +88,4 @@ export default {
 
 # Images
 
-![Alt Text goes here](img/uploads/david_schubert.jpg)
+![Alt Text goes here](/img/uploads/david_schubert.jpg)
