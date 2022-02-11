@@ -6,13 +6,46 @@
  */
 
 module.exports = {
+  darkMode: 'class',
   theme: {
-    darkMode: 'class',
     extend: {
       fontFamily: {
         sans: ['Inter']
       },
       colors: {
+        pukpink: {
+          '100': '#F68AFF',
+          '200': '#FC67F6',
+          '300': '#F946DD',
+          '400': '#F526BC',
+          DEFAULT: '#F00895',
+          '600': '#D70083',
+          '700': '#B1006F',
+          '800': '#8A005A',
+          '900': '#640043'
+        },
+        puklightblue: {
+          '100': '#C4F0E3',
+          '200': '#B4EBE1',
+          '300': '#A3E6E1',
+          '400': '#94DDE0',
+          DEFAULT: '#84CCDA',
+          '600': '#6CB1BD',
+          '700': '#55949F',
+          '800': '#3F767F',
+          '900': '#2B575D'
+        },
+        pukyellow: {
+          '100': '#F8C291',
+          '200': '#F4BF73',
+          '300': '#EFC355',
+          '400': '#E9CB38',
+          DEFAULT: '#E3D81C',
+          '600': '#CBBF0E',
+          '700': '#AEA203',
+          '800': '#8A8300',
+          '900': '#646100'
+        },
         gray: {
           '50': 'var(--color-gray-50)', // #F9FAFB
           '100': 'var(--color-gray-100)', // #F3F4F6

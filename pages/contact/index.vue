@@ -3,7 +3,7 @@
     <nav class="mb-8" aria-label="go back">
       <router-back class="block" />
     </nav>
-    <section class="w-full max-w-5xl mx-auto mb-16">
+    <section class="w-full max-w-5xl mx-auto mb-16 bg-pukpink dark:bg-pukyellow">
       <h1 class="title">Auch neue Kontakte sind normal</h1>
       <h2>Aus neu mach normal</h2>
       <p>
@@ -25,7 +25,7 @@
         >
       </p>
     </section>
-    <section v-if="impressum" class="w-full max-w-5xl mx-auto mt-10">
+    <section v-if="impressum" class="w-full max-w-5xl mx-auto mt-10 bg-puklightblue dark:bg-pukyellow">
       <article>
         <h5
           v-if="impressum.penis"
@@ -62,9 +62,11 @@
             <p><img v-bind:src="spieler.photo" width="300" height="250" v-bind:alt="spieler.name" /></p>
           </div>
         </div>
-
-        <nuxt-content :document="impressum.titletag" />
       </article>
+    </section>
+    <section v-if="impressum" class="w-full max-w-5xl mx-auto mt-10 bg-puklightblue dark:bg-pukyellow">
+      <h1>Content von Markdown File</h1>
+      <nuxt-content :document="impressum.titletag" />
     </section>
   </main>
 </template>
@@ -96,16 +98,4 @@ export default {
     },
   },
 }
-
-/* export default {
-  async asyncData({ $content, params, error }) {
-    let mycontent
-    try {
-      mycontent = await $content('impress', params.impress).fetch()
-    } catch (e) {
-      error({ message: 'Impressum content not found' })
-    }
-    return { SITE_CONTENT }
-  },
-} */
 </script>
