@@ -34,6 +34,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -49,6 +50,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -73,6 +75,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -93,19 +96,14 @@
                   muted
                   playsinline
                 >
-                  <source
-                    src="https://antoni.de/wp-content/uploads/2021/11/bar_martin_gif_211103_1.webm"
-                    type="video/webm"
-                  />
-                  <source
-                    src="https://antoni.de/wp-content/uploads/2021/11/bar_martin_gif_211103.mp4"
-                    type="video/mp4"
-                  />
+                  <source src="/img/kultur/bar_martin_gif_211103_1.webm" type="video/webm" />
+                  <source src="/img/kultur/bar_martin_gif_211103.mp4" type="video/mp4" />
                 </video>
               </figure>
             </div>
           </div>
-          <div class="row">
+
+          <!--<div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
                 <img src="https://antoni.de/wp-content/uploads/2021/09/antoni-culture-eqg.jpg" loading="lazy" alt="" />
@@ -117,6 +115,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -137,6 +136,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -152,6 +152,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -168,6 +169,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -191,6 +193,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -211,6 +214,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -223,6 +227,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -243,6 +248,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -259,6 +265,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -271,6 +278,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -301,6 +309,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -316,6 +325,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -331,6 +341,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -349,6 +360,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -364,6 +376,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -382,6 +395,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -394,6 +408,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -406,6 +421,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -421,6 +437,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -436,6 +453,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -463,6 +481,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -478,6 +497,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -493,6 +513,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -528,6 +549,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -543,6 +565,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -570,6 +593,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -582,6 +606,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -597,6 +622,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -612,6 +638,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -627,6 +654,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -646,6 +674,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -669,6 +698,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -695,6 +725,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -710,6 +741,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -733,6 +765,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -763,6 +796,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--3 media--small r r--1-1">
@@ -779,6 +813,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -798,6 +833,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -825,6 +861,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -858,6 +895,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -877,6 +915,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -900,6 +939,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -923,6 +963,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -942,6 +983,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -957,6 +999,7 @@
               </figure>
             </div>
           </div>
+
           <div class="row">
             <div class="col col--1">
               <figure class="media media--1 media--small r r--1-1">
@@ -983,7 +1026,7 @@
                 />
               </figure>
             </div>
-          </div>
+          </div>-->
         </div>
       </main>
     </div>
