@@ -7,7 +7,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate --modern"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "netlify-cli": "^7.0.0",
+    "nuxt-compress": "^5.0.0",
     "nuxt-purgecss": "^1.0.0",
     "postcss": "^8.3.11",
     "postcss-easing-gradients": "^3.0.1",

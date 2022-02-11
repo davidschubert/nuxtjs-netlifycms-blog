@@ -110,7 +110,8 @@ export default {
     '@nuxtjs/svg',
     '@nuxtjs/pwa',
     '@nuxtjs/moment',
-    '@nuxt/image'
+    '@nuxt/image',
+    'nuxt-compress'
   ],
   moment: {
     defaultLocale: 'de',
@@ -121,7 +122,21 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/axios'],
+  modules: [
+    '@nuxt/content',
+    'nuxt-purgecss',
+    '@nuxtjs/axios',
+    ['nuxt-compress',
+      {
+        gzip: {
+          threshold: 8192,
+        },
+        brotli: {
+          threshold: 8192,
+        },
+      },
+    ],
+  ],
   /*
    ** Build configuration
    */

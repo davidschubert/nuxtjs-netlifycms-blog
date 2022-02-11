@@ -49,7 +49,7 @@
       <br />
       <br />
       <h2>Normal-Image Tag</h2>
-      <img src="/img/uploads/david_schubert.jpg" alt="Image Placeholder" /><br />
+      <img src="/img/uploads/david_schubert.jpg" alt="Image Placeholder" width="300" height="250" /><br />
       <br />
       <h2>Nuxt-Image Tag</h2>
       <nuxt-img

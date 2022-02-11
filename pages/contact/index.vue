@@ -50,7 +50,7 @@
         <div v-for="(value, name) in impressum.team">
           {{ impressum.team[0].name }}<br />
           {{ impressum.team[0].position }}<br />
-          <img v-bind:src="impressum.team[0].photo" width="300" height="250" /><br />
+          <nuxt-img v-bind:src="impressum.team[0].photo" width="300" height="250" /><br />
         </div>
         <br />
 
@@ -59,7 +59,7 @@
           <div class="my-4 p-4 bg-white" v-for="(spieler, index) in impressum.team" :name="spieler.name">
             <h3>{{ spieler.name }}</h3>
             <p>{{ spieler.position }}</p>
-            <p><img v-bind:src="spieler.photo" width="300" height="250" v-bind:alt="spieler.name" /></p>
+            <p><nuxt-img v-bind:src="spieler.photo" width="300" height="250" v-bind:alt="spieler.name" /></p>
           </div>
         </div>
       </article>
@@ -72,13 +72,13 @@
 </template>
 
 <script>
-// import * as SITE_CONTENT from '~/content/standard/impress.json'
-
-import impressum from '~/content/standard/impress.json'
+import impressum from '~/content/meta/impress.json'
 
 export default {
   async asyncData() {
-    return { impressum }
+    return {
+      impressum,
+    }
   },
   // Transitions
   transition: {
