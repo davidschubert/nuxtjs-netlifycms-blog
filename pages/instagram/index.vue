@@ -32,9 +32,9 @@ let apiIp = 'http://icanhazip.com'
 let apiBored = 'http://www.boredapi.com/api/activity/'
 
 export default {
-  async asyncData() {
-    const dataIp = await axios.get(apiIp)
-    const dataBored = await axios.get(apiBored)
+  async asyncData({ $axios }) {
+    const dataIp = await $axios.get(apiIp)
+    const dataBored = await $axios.get(apiBored)
     return {
       ip: dataIp.data,
       bored: dataBored.data,
