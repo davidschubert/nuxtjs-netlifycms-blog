@@ -27,18 +27,18 @@
 <script>
 import axios from 'axios'
 
-// API Endpoints
+// Different API's
 let apiIp = 'http://icanhazip.com'
 let apiBored = 'http://www.boredapi.com/api/activity/'
 
 export default {
-  async asyncData({ $axios }) {
-    const dataIp = await $axios.get(apiIp)
-    const dataBored = await $axios.get(apiBored)
+  async asyncData() {
+    const dataIp = await axios.get(apiIp)
+    const dataBored = await axios.get(apiBored)
 
     console.log(dataIp.data)
     console.log(dataBored.data)
-    
+
     return {
       ip: dataIp.data,
       bored: dataBored.data,
