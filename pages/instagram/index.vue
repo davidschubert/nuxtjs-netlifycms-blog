@@ -35,6 +35,10 @@ export default {
   async asyncData({ $axios }) {
     const dataIp = await $axios.get(apiIp)
     const dataBored = await $axios.get(apiBored)
+
+    console.log(dataIp.data)
+    console.log(dataBored.data)
+    
     return {
       ip: dataIp.data,
       bored: dataBored.data,
