@@ -9,6 +9,7 @@
   opacity: 0;
 }
 
+/* Slide */
 .slide-left-enter-active,
 .slide-left-leave-active,
 .slide-right-enter-active,
@@ -38,10 +39,169 @@
 /* Transition von David Schubert. Überschreibt die page-enter... Klassen */
 .davsch-enter-active,
 .davsch-leave-active {
-  transition-property: opacity;
-  @apply duration-200;
+  transition: opacity 0.5s;
 }
 .davsch-enter,
 .davsch-leave-to {
   opacity: 0;
+}
+
+
+/* Custom Transition */
+.bounce-enter-active,
+.bounce-leave-active {
+  animation: bounce-in .8s;
+}
+.bounce-enter,
+.bounce-leave-active {
+  animation: bounce-out .5s;
+}
+@keyframes bounce-in {
+  0% { transform: scale(0) }
+  50% { transform: scale(1.5) }
+  100% { transform: scale(1) }
+}
+@keyframes bounce-out {
+  0% { transform: scale(1) }
+  50% { transform: scale(1.5) }
+  100% { transform: scale(0) }
+}
+
+
+
+/* fcbayern Transition */
+.fcbayern-enter {
+  opacity: 0;
+  //transform: translateY(-20px);
+  //transform: translate(100%, 0%) translate3d(0px, 0px, 0px);
+}
+
+.fcbayern-enter-active {
+  //transition: all 1.2s cubic-bezier(0.87, 0, 0.13, 1);
+  transition: opacity 1s;
+
+  /*position: fixed;
+  z-index: 50;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #000;*/
+}
+
+.fcbayern-enter-to {
+  opacity: 1;
+  //transform: translateY(0px);
+  //transform: translate(200%, 0%) translate3d(0px, 0px, 0px);
+}
+
+/* leave */
+.fcbayern-leave {
+  opacity: 1;
+}
+
+.fcbayern-leave-active {
+  //transition: all 1s cubic-bezier(0.87, 0, 0.13, 1);
+  transition: opacity 0.8s;
+}
+
+.fcbayern-leave-to {
+  opacity: 0;
+  //transform: translateY(-20px);
+}
+
+
+/* layout Transition */
+.layout-enter, .layout-leave-to {
+  opacity: 0;
+}
+
+.layout-enter-active, .layout-leave-active {
+  transition: opacity 0.8s;
+}
+
+.layout-enter-to, .layout-leave {
+  opacity: 1;
+}
+
+/***
+Crazy Transition
+***/
+.crazy-enter-active, .crazy-leave-active {
+  transition-duration: 1600ms;
+
+  &::before,
+  &::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+  }
+
+  &::before {
+    background-color: #000;
+  }
+
+  &::after {
+    top: 50%;
+    background-color: #2e2e2e;
+  }
+}
+
+.crazy-leave {
+  &::before,
+  &::after {
+    transform: scaleX(0);
+  }
+}
+
+.crazy-leave-active {
+  &::before {
+    transition-duration: 800ms;
+  }
+
+  &::after {
+    transition-duration: 500ms;
+    transition-delay: 300ms;
+  }
+}
+
+.crazy-leave-to {
+  &::before,
+  &::after {
+    transform: scale(1);
+    transform-origin: left;
+  }
+}
+
+.crazy-enter {
+  &::before,
+  &::after {
+    transform: scaleX(1);
+  }
+}
+
+.crazy-enter-active {
+  &::before {
+    transition-duration: 800ms;
+  }
+
+  &::after {
+    transition-duration: 500ms;
+    transition-delay: 300ms;
+  }
+}
+
+.crazy-enter-to {
+  &::before,
+  &::after {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
 }

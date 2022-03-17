@@ -80,8 +80,10 @@ export default {
       impressum,
     }
   },
+
   // Transitions
-  transition: {
+  /*transition: {
+    name: 'intro',
     appear: true,
     css: true,
     beforeEnter(el) {
@@ -96,6 +98,10 @@ export default {
       console.log('PAGE - Leaving')
       done()
     },
-  },
+  },*/
 }
 </script>
+
+<style>
+
+</style>

@@ -1035,11 +1035,7 @@
 
 <script>
 export default {
-  transition: {
-    name: 'intro',
-    mode: 'out-in',
-    duration: 300,
-  },
+
 }
 </script>
 

@@ -85,11 +85,11 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: '~/components/LoadingBar.vue',
-  loadingIndicator: {
-    name: 'nuxt',
-    color: '#3B8070',
-    background: 'white'
+  loading: {
+    color: 'DodgerBlue',
+    height: '10px',
+    continuous: true,
+    duration: 3000
   },
   /*
    ** Global CSS
@@ -220,7 +220,11 @@ export default {
       appleStatusBarStyle: 'black'
     }
   },
-  pageTransition: 'davsch', // assets/css/main.css
+  pageTransition: {
+    name: 'crazy',
+    mode: 'out-in',
+    appear: true,
+  },
   image: {
     // The screen sizes predefined by `@nuxt/image`:
     screens: {
