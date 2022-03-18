@@ -35,6 +35,10 @@
       </div>
     </section>
 
+    <GetRandomQuote />
+
+    <SimpleIcons />
+
     <section class="w-full max-w-5xl mx-auto mb-16 bg-red-200">
       <button v-on:click="getTeacupData">Get Teacup Data</button>
       <div>
