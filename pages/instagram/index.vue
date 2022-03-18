@@ -81,9 +81,9 @@ export default {
     const dataBored = await axios.get(apiBored)
     const dataQuotes = await axios.get(getQuotes)
 
-    console.log(dataIp.data)
-    console.log(dataBored.data)
-    console.log(dataQuotes.data)
+    //console.log(dataIp.data)
+    //console.log(dataBored.data)
+    //console.log(dataQuotes.data)
 
     return {
       ip: dataIp.data,
