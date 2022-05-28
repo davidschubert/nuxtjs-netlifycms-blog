@@ -6,6 +6,10 @@
     <section class="w-full max-w-5xl mx-auto">
       <h1 class="title">Kurzfristig einberufene Pressekonferenz: FC Bayern bezieht Stellung zum Süle-Abschied!</h1>
       <br />
+      <h2>Video Stream 1</h2>
+      <iframe width="640" height="360" src="https://rtsp.me/embed/NE88zEEY/" frameborder="0" allowfullscreen></iframe>
+
+      <br />
       <h2>Normal-Image Tag</h2>
       <figure>
         <nuxt-img
