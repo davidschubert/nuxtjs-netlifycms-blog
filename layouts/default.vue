@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
+    <AppInfo />
     <Header />
     <Nuxt />
-    <AppInfo />
     <ColorModePicker />
   </div>
 </template>
