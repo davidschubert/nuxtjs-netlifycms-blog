@@ -5,7 +5,7 @@
       <h2 class="subtitle text-center">Boilerplate</h2>
     </section>
 
-    <section class="mt-8">
+    <section class="mt-8 min-h-168">
       <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Neuester Blogbeitrag</h3>
       <posts post-type="blog" :amount="1" />
     </section>
